@@ -1,0 +1,6 @@
+.hello1 {
+    color: black;
+    font-size: 1rem;
+    border: 2px solid palevioletred;
+    background: linear-gradient(rgb(108, 108, 247),pink);
+}
