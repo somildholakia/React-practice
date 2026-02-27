@@ -5,6 +5,9 @@ function App(){
   return (
     <div>
       <Products user="Somil" colors="Red"/>
+            <Products user="Krishna" colors="yellow"/>
+          <Products user="Ritik" colors="teal"/>
+
     </div>
   );
 }
