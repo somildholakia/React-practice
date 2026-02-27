@@ -1,0 +1,16 @@
+.line1 {
+    text-decoration: line-through;
+    color: black;
+}
+
+.line2 {
+    color: rgb(65, 123, 240);
+        font-weight: bold;
+
+}
+
+.styles {
+    background: linear-gradient(rgb(252, 219, 32),rgb(244, 231, 156));
+    height: 30px;
+    border-radius: 10px;
+}
