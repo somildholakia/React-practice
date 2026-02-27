@@ -1,18 +1,15 @@
 import "./product.css";
 
-function Title({name,age,year,features }){
-  // console.log(features)
+function Products({user,colors}){
+  let color = { color: colors}
   return (
-    <div className="hello1">
-      <h1>MY name is: {name}</h1>
-      <p>My age is: {age} </p>
+    <div style={color}> 
 
-      <h2>My year is: {year}</h2>
-     <p>{features}</p>
+      <h1> Hello {user} </h1>
+
+
     </div>
   );
 }
 
-
-
-export default Title;
+export default Products;
