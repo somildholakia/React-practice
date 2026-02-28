@@ -2,6 +2,7 @@ import "./App.css"
 // import Products from "./product";
 import AmazonCards from "./Amazon";
 import Button from "./Button";
+import Form from "./Form";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 
         <AmazonCards Title="Boat 121v2" des1="Huge BAttery" des2="Noise Cancellation" idx={3}/>
         <Button />
+        <Form />
 
       </div>
 
